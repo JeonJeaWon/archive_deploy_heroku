@@ -35,7 +35,6 @@ DEBUG = False
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 ​
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -90,7 +89,7 @@ TEMPLATES = [
 ]
 
 #WSGIAPPTICATION
-WSGIAPPLICATION = 'project_2020.wsgi.application' 배포시 주석 해제
+#WSGIAPPLICATION = 'project_2020.wsgi.application' 배포시 주석 해제
 
 
 # Database
@@ -106,7 +105,7 @@ WSGIAPPLICATION = 'project_2020.wsgi.application' 배포시 주석 해제
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'djangogirls',
+        'NAME': 'froggi',
         'USER': 'name',
         'PASSWORD': '',
         'HOST': 'localhost',
